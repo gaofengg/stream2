@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stream2"
+version = "0.0.1"
+authors = [
+    {name = "Gao Feng", email = "gf0517@gmail.com"},
+]
+description = "A sequence of elements supporting sequential operations."
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["stream", "sequence"]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+]
+
+[project.urls]
+"Homepage" = "https://github.com/gaofengg/stream2"
