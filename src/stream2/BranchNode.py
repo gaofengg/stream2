@@ -1,6 +1,6 @@
 import threading
 
-from OnItem import OnItem
+from stream2.OnItem import OnItem
 
 
 class BranchNode:

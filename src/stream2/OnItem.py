@@ -21,9 +21,7 @@ class OnItem:
 
     def transform(self, fn: callable):
         self.__item_obj = fn(self.__item_obj)
-        from BranchNode import BranchNode
+        from stream2.BranchNode import BranchNode
         bn = BranchNode._get_instance()
         bn._set_item_obj(self.__item_obj)
         return bn
-
-

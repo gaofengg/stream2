@@ -1,6 +1,6 @@
 import threading
 
-from BranchNode import BranchNode
+from stream2.BranchNode import BranchNode
 
 
 class CreateItem:
